@@ -1,4 +1,4 @@
-# NEWS_TRIVIA
+# CAROH'S BLOG
 -  This project was generated with [python](https://www.python.org/) 
 #### By **Caroline W. Nyambura**
 ## Description
