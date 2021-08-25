@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+body {
+  background: linear-gradient(
+            0deg
+            ,rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"); 
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5rem;
+    font-family: 'Rancho', cursive;    
+    font-size: 4vh;
+    color: #c5c5c5;
+}
+.all{
+  background-color:rgba(0,0,0,0.8);
+  display: flex;
+  margin: 50px auto 30px;
+  padding: 0 16px;
+  max-width: 1000px;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rancho', cursive;    
+  font-size: 4vh;
+  color: #c5c5c5;
+}
+
+.bg-steel {
+  background-color: #5f788a;
+}
+.welcome {
+  border-radius: 2vh;
+  border: 1px solid #eee;
+  padding: 2vh 8vh;
+  display: flex;
+  flex-direction: row;
+  transition: all 0.2s ease-in-out;
+  margin-top: 5vh;
+  background-color: transparent;
+  color: #000;
+  font-weight: 600;
+  font-size: 5vh;
+  border: 2px solid #fff;
+  width: auto;
+  position: relative;
+  display: block;
+  font-family: 'Rancho', cursive;    
+    font-size: 4vh;
+    color: #c5c5c5;
+}
+
+.welcome span {
+  font-size: 6vh;
+  color: #DAA520;
+}
+.site-header .navbar {
+  background-color: #000;
+}
+
+.site-header .navbar-nav .nav-link {
+  color:#cbd5db;
+  font-family: 'Rancho', cursive;    
+    font-size: 4vh;
+    color: #c5c5c5;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+  font-family: 'Rancho', cursive;    
+    font-size: 4vh;
+    color: #c5c5c5;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+  font-family: 'Rancho', cursive;    
+    font-size: 4vh;
+    color: #c5c5c5;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  font-family: 'Rancho', cursive;    
+    font-size: 4vh;
+    color: #c5c5c5;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+  font-family: 'Rancho', cursive;    
+    font-size: 4vh;
+    color: #c5c5c5;
+}
